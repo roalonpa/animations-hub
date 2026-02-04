@@ -23,15 +23,21 @@ Animations that respond directly to user interaction, mainly through pointer mov
 ## Built With
 
 React
-Motion (motion.dev)
+
+Motion
+
 CSS & SVG
+
 Vite
 
 ## Why This Project?
 
 I built Animations Hub to:
+
     Learn how to use motion step by step
+
     Practice different types of animations that I can apply in future projects
+    
     Keep a visual record of what I am learning
 
 ## Live Demo
