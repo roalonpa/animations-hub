@@ -23,7 +23,7 @@ export const AppContext = createContext();
 export default function App() {
 
   const scrollRef = useRef(null);
-  const colors = ['#ff00f2', '#bf00ee', '#ff00a2', '#ffffff']
+  const colors = ['#ff00f2', '#bf00ee', '#ff00a2', '#ffffff'];
 
   function colorShuffle() {
     const initialOrder = colors;
