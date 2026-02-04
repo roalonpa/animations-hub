@@ -1,0 +1,58 @@
+/* A0 */
+
+.tabs-btn:hover {
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+    transform: scale(1.01);
+}
+
+#buttons-wrapper-A0 {
+    gap: 0.1rem
+}
+
+.tabs-btn {
+    width: 22px; 
+    height: 25px;
+    font-size: 0.7rem;
+}
+
+/* A1 */
+
+#shuffle-button-A1 {
+    background-color: rgba(0, 0, 0, 0.8);
+    transition: all 0.3s ease;
+}
+
+#shuffle-button-A1:hover {
+    transform: scale(1.02);
+    background-color: rgba(0, 0, 0, 0.95);
+}
+
+#shuffle-button-A1:active {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+    #buttons-wrapper-A0 {
+        gap: 0.2rem
+    }
+
+    .tabs-btn {
+        width: 38px; 
+        height: 40px;
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+
+    #buttons-wrapper-A0 {
+        gap: 0.3rem
+    }
+
+    .tabs-btn {
+        width: 48px; 
+        height: 50px;
+        font-size: 1.2rem;
+    }
+}
