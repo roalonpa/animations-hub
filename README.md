@@ -1,16 +1,44 @@
-# React + Vite
+# Animations Hub
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Animations Hub is a personal project where I experiment with UI animations using React and Motion.
 
-Currently, two official plugins are available:
+The goal of this project is to understand how different kinds of user input—such as layout changes, scrolling, and pointer movement—can drive motion in interfaces. Each animation focuses on a single idea and is kept intentionally simple to make the behavior easy to understand.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Animation Categories
 
-## React Compiler
+Animations are grouped by what triggers them:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Layout
 
-## Expanding the ESLint configuration
+Animations driven by layout changes caused by state updates, such as element reordering, position shifts, or size changes.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Scroll
+
+Animations whose progress is linked to scroll position, where elements scale, rotate, or transform as the user scrolls.
+
+### Interaction
+
+Animations that respond directly to user interaction, mainly through pointer movement, creating real-time visual feedback.
+
+## Built With
+
+React
+Motion (motion.dev)
+CSS & SVG
+Vite
+
+## Why This Project?
+
+I built Animations Hub to:
+    Learn how to use motion step by step
+    Practice different types of animations that I can apply in future projects
+    Keep a visual record of what I am learning
+
+## Live Demo
+
+👉 https://animations-hub.vercel.app/
+
+## Notes
+
+This project is continuously evolving as I explore new animation ideas.
+Each example is kept intentionally minimal to focus on the animation logic itself.
