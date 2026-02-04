@@ -34,11 +34,11 @@ Vite
 
 I built Animations Hub to:
 
-    Learn how to use motion step by step
+• Learn how to use motion step by step
 
-    Practice different types of animations that I can apply in future projects
-    
-    Keep a visual record of what I am learning
+• Practice different types of animations that I can apply in future projects
+
+• Keep a visual record of what I am learning
 
 ## Live Demo
 
@@ -47,4 +47,5 @@ I built Animations Hub to:
 ## Notes
 
 This project is continuously evolving as I explore new animation ideas.
+
 Each example is kept intentionally minimal to focus on the animation logic itself.
